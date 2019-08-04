@@ -17,8 +17,6 @@
 #### Some important things to consider
 * I will be using opencv's RGB2GRAY.
 * OpenCV's COLOR_RGB2GRAY uses a weighted approach for grayscale conversion.
-
-    (Text(0.5, 1.0, 'RGB'), Text(0.5, 1.0, 'Gray'))
 ![png](examples/output_5_1.png)
 
 
@@ -26,8 +24,6 @@
 * I will use a train test split of 0.8, 0.2 and I will be using a batch_size of 100.
 
 ### Just making sure everything is as expected.
-
-    (Text(0.5, 1.0, 'x_train'), Text(0.5, 1.0, 'y_train'))
 ![png](examples/output_9_1.png)
 
 ### Lets talk about the model
